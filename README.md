@@ -26,6 +26,6 @@ The FlightRadarAPI project is available for you to simplify you queries to the F
 
 ## Evaluation criteria
  * We love ``Craftsmanship, clean code``.
- * Spark implementation appreciated.
+ * Spark implementation appreciated with API Dataframe.
  * Generation, storage, ingestion, transformation, serving data.
  * Keep in mind that you code will run on production environment (so must be industrialized) in purpose to be analyse by a Data Scientist/Data Analyst.
