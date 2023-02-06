@@ -26,6 +26,8 @@ Le job doit donc être
 * **systématique**: conserver les données & résultats dans un mécanisme de stockage, en adoptant une nomencalture adaptée permettant aux _data analyst_ en aval de retrouver les valeurs recherchées pour un couple `(Date, Heure)` donné.
 * **ré-exécutable**: le data analyst qui vous corrigera doit être en mesure de ré-exécuter les jobs localement et constater les même résultats.
 
+> Proposez dans le README un exemple d'architecture idéal de votre application industrialisé sans avoir besoin de l'implémenter (ordonnancement, monitoring, data modeling, etc.) 
+
 ![flightradarimage](media-assets/flightradar.png)
 
 # Note d'intention
@@ -65,9 +67,9 @@ ___
 
 * Le rendu `PEUT` comporter un Jupyter notebook avec les résultats
 
-* votre pipeline `DEVRAIT` utiliser Apache Spark et des DataFrames
+* votre pipeline `DEVRAIT` utiliser Apache Spark et l'API DataFrame
 
-* votre pipeline `DEVRAIT` stocker les données dans un dossier avec une nomenclature horodatée. Ex: `Flights/rawzone/2023-07-16T19:20:30+01:00`
+* votre pipeline `DEVRAIT` stocker les données dans un dossier avec une nomenclature horodatée. Ex: `Flights/rawzone/tech_year=2023/tech_month=2023-07/tech_day=2023-07-16/flights2023071619203001.csv`
 
 
 
