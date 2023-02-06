@@ -23,9 +23,10 @@ The FlightRadarAPI project is available for you to simplify you queries to the F
     - Q7.1: By continent, what airport is the most popular destination ?
     - Q7.2: What airport airport has the greatest inbound/outbound flights difference ? (positive or negative)
     - Q8: By continent, what is the average active flight speed ? (flight localization by airport of origin)
+    - Bonus Question: What tool and what data modeling & partitioning could you use to run the application in Production environnment)
 
 ## Evaluation criteria
  * We love ``Craftsmanship, clean code``.
- * Spark implementation appreciated with API Dataframe.
- * Generation, storage, ingestion, transformation, serving data.
+ * Spark implementation with API Dataframe.
+ * Create a data pipeline ETL (Extract, Transform, Load)
  * Keep in mind that you code will run on production environment (so must be industrialized) in purpose to be analyse by a Data Scientist/Data Analyst.
