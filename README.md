@@ -61,7 +61,7 @@ ___
 
 * L'extraction des données `PEUT` être faite dans le format de votre choix. CSV, Parquet, AVRO, ... celui qu'il vous semble le plus adapté
 
-* Votre pipeline `DEVRAIT` inclure une phase de [data cleaning](https://fr.wikipedia.org/wiki/Nettoyage_de_donn%C3%A9es)
+* Votre pipeline `DOIT` inclure une phase de [data cleaning](https://fr.wikipedia.org/wiki/Nettoyage_de_donn%C3%A9es)
 
 * Le rendu `PEUT` comporter un Jupyter notebook avec les résultats
 
