@@ -26,7 +26,7 @@ Le job doit donc être
 * **systématique**: conserver les données & résultats dans un mécanisme de stockage, en adoptant une nomencalture adaptée permettant aux _data analyst_ en aval de retrouver les valeurs recherchées pour un couple `(Date, Heure)` donné.
 * **ré-exécutable**: le data analyst qui vous corrigera doit être en mesure de ré-exécuter les jobs localement et constater les même résultats.
 
-> Proposez dans le README un exemple d'architecture idéal de votre application industrialisé sans avoir besoin de l'implémenter (ordonnancement, monitoring, data modeling, etc.) 
+> Proposez dans le README un exemple d'architecture idéal de votre application industrialisé (dans un environnement de PROD) sans avoir besoin de l'implémenter (ex: ordonnancement, monitoring, data modeling, etc.) 
 
 ![flightradarimage](media-assets/flightradar.png)
 
