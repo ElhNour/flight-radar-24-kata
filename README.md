@@ -23,10 +23,8 @@ Ce kata est orienté **industrialisation**. Le pipeline ETL doit être pensé co
 
 Le job doit donc être
 * **fault-tolerant**: Un corner-case pas couvert ou une donnée corrompue ne doivent pas causer l'arret du job.
+* **observable**: En loggant les informations pertinantes
 * **systématique**: conserver les données & résultats dans un mécanisme de stockage, en adoptant une nomencalture adaptée permettant aux _data analyst_ en aval de retrouver les valeurs recherchées pour un couple `(Date, Heure)` donné.
-* **ré-exécutable**: le data analyst qui vous corrigera doit être en mesure de ré-exécuter les jobs localement et constater les même résultats.
-
-> Proposez dans le README un exemple d'architecture idéal de votre application industrialisé (dans un environnement de PROD) sans avoir besoin de l'implémenter (ex: ordonnancement, monitoring, data modeling, etc.) 
 
 ![flightradarimage](media-assets/flightradar.png)
 
@@ -39,6 +37,10 @@ Le job doit donc être
 > Le kata laisse volontairement beaucoup de liberté. Il y a une grande marge de progression entre un “MVP” et une implémentation “parfaite”. Au candidat de choisir sur quelles exigences mettre le focus dans son rendu.
 
 > Le rendu MVP implémente au moins 4 des questions de l'énoncé, assorti d'un Readme expliquant la démarche choisie
+
+> A défaut d'implémenter tout le pipelione, proposez dans le README **un exemple d'architecture idéal de votre application industrialisée**(dans un environnement de PROD) sans avoir besoin de l'implémenter (ex: ordonnancement, monitoring, data modeling, etc.)
+
+> Pour faire ce schéma, https://www.diagrams.net/ ou https://excalidraw.com/ sont vos amis :)
 
 ___
 
