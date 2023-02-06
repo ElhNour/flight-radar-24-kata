@@ -15,7 +15,7 @@ Ce pipeline doit permettre de fournir les indicateurs suivants:
 3. Le vol en cours avec le trajet le plus long
 4. Pour chaque continent, la longueur de vol moyenne
 5. L'entreprise constructeur d'avions avec le plus de vols actifs
-6. Pour chaque continent, le modèle d'avion le plus utilisé
+6. Pour chaque pays de compagnie aérienne, le top 3 des modèles d'avion en usage
 
 ## Industrialisation
 
@@ -57,3 +57,21 @@ ___
 ## Specification [RFC2119](https://microformats.org/wiki/rfc-2119-fr) du kata
 
 
+* Un grand pouvoir implique de grandes responsabilités. Vos choix `DOIVENT` être justifiés dans un Readme. 
+
+* L'extraction des données `PEUT` être faite dans le format de votre choix. CSV, Parquet, AVRO, ... celui qu'il vous semble le plus adapté
+
+* Votre pipeline `DEVRAIT` inclure une phase de [data cleaning](https://fr.wikipedia.org/wiki/Nettoyage_de_donn%C3%A9es)
+
+* Le rendu `PEUT` comporter un Jupyter notebook avec les résultats
+
+* votre pipeline `DEVRAIT` utiliser Apache Spark et des DataFrames
+
+* votre pipeline `DEVRAIT` stocker les données dans un dossier avec une nomenclature horodatée. Ex: `Flights/rawzone/2023-07-16T19:20:30+01:00`
+
+
+
+
+
+
+> Questions Bonus: Quel aéroport a la plus grande différence entre le nombre de vol sortant et le nombre de vols entrants ?
