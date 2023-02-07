@@ -34,7 +34,7 @@ Le job doit donc être
 
 > Le rendu MVP implémente au moins 4 des questions de l'énoncé, assorti d'un Readme expliquant la démarche choisie
 
-> A défaut d'implémenter tout le pipelione, proposez dans le README **un exemple d'architecture idéal de votre application industrialisée**(dans un environnement de PROD) sans avoir besoin de l'implémenter (ex: ordonnancement, monitoring, data modeling, etc.)
+> A défaut d'implémenter tout le pipeline, proposez dans le README **un exemple d'architecture idéal de votre application industrialisée**(dans un environnement de PROD) sans avoir besoin de l'implémenter (ex: ordonnancement, monitoring, data modeling, etc.)
 
 > Pour faire ce schéma, https://www.diagrams.net/ ou https://excalidraw.com/ sont vos amis :)
 
@@ -42,7 +42,7 @@ Le job doit donc être
 ![flightradarimage](media-assets/flightradar.png)
 
 
-# Contexte& motivation derrière le kata
+# Contexte & motivation derrière le kata
 
 
 Un data engineer doit être capable de concevoir un pipeline de données pour gérer un flux important et en tirer des informations pertinentes. 
