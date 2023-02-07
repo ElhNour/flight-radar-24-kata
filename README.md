@@ -26,13 +26,9 @@ Le job doit donc être
 * **observable**: En loggant les informations pertinantes
 * **systématique**: conserver les données & résultats dans un mécanisme de stockage, en adoptant une nomencalture adaptée permettant aux _data analyst_ en aval de retrouver les valeurs recherchées pour un couple `(Date, Heure)` donné.
 
-![flightradarimage](media-assets/flightradar.png)
-
-# Note d'intention
 
 ## ⚠️ MVP ⚠️
 
- 
 
 > Le kata laisse volontairement beaucoup de liberté. Il y a une grande marge de progression entre un “MVP” et une implémentation “parfaite”. Au candidat de choisir sur quelles exigences mettre le focus dans son rendu.
 
@@ -42,9 +38,11 @@ Le job doit donc être
 
 > Pour faire ce schéma, https://www.diagrams.net/ ou https://excalidraw.com/ sont vos amis :)
 
-___
 
-## Contexte
+![flightradarimage](media-assets/flightradar.png)
+
+
+# Contexte& motivation derrière le kata
 
 
 Un data engineer doit être capable de concevoir un pipeline de données pour gérer un flux important et en tirer des informations pertinentes. 
@@ -56,9 +54,7 @@ En tant que data engineer, il est important de pouvoir **explorer & comprendre l
 https://www.flightradar24.com/ est une API fournissant des informations **en temps réel** sur le traffic aérien mondial. De ce fait, les informations qu'elle renvoie changent en parmanence. Pour en tirer des informations utiles, son traitement doit donc **doit être répété régulièrement**. Pour des raisons d'efficacité, on cherche donc à transformer ce pipeline ETL en **un job ne requérant pas d'intervention humaine.**
 
 
-___
-
-## Specification [RFC2119](https://microformats.org/wiki/rfc-2119-fr) du kata
+# Specification [RFC2119](https://microformats.org/wiki/rfc-2119-fr) du kata
 
 
 * Un grand pouvoir implique de grandes responsabilités. Vos choix `DOIVENT` être justifiés dans un Readme. 
@@ -72,8 +68,6 @@ ___
 * votre pipeline `DEVRAIT` utiliser Apache Spark et l'API DataFrame
 
 * votre pipeline `DEVRAIT` stocker les données dans un dossier avec une nomenclature horodatée. Ex: `Flights/rawzone/tech_year=2023/tech_month=2023-07/tech_day=2023-07-16/flights2023071619203001.csv`
-
-
 
 
 
