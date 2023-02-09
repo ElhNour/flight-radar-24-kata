@@ -27,7 +27,7 @@ Le job doit donc être
 * **systématique**: conserver les données & résultats dans un mécanisme de stockage, en adoptant une nomencalture adaptée permettant aux _data analyst_ en aval de retrouver les valeurs recherchées pour un couple `(Date, Heure)` donné.
 
 
-## ⚠️ Candidatutres ⚠️
+## ⚠️ Candidatures ⚠️
 
 
 > Le kata laisse volontairement beaucoup de liberté. Il y a une grande marge de progression entre un “MVP” et une implémentation “parfaite”. Au candidat de choisir sur quelles exigences mettre le focus dans son rendu.
