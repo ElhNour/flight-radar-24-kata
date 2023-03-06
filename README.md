@@ -38,6 +38,7 @@ Le job doit donc être
 
 > Pour faire ce schéma, https://www.diagrams.net/ ou https://excalidraw.com/ sont vos amis :)
 
+> **Pour le rendu, Poussez sur une nouvelle branche git, ouvrez une merge request vers Main, et notifiez votre interlocuteur par message que le kata est fini.
 
 ![flightradarimage](media-assets/flightradar.png)
 
