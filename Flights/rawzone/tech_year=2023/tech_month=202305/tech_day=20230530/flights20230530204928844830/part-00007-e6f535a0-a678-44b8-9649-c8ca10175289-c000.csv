@@ -1,0 +1,2 @@
+id,icao_24bit,latitude,longitude,heading,altitude,ground_speed,aircraft_code,registration,time,origin_airport_iata,destination_airport_iata,number,airline_iata,on_ground,vertical_speed,callsign,airline_icao
+3081399b,3C670A,53.0043,-39.941,264,39004,480,A359,D-AIXJ,1685472566,MUC,EWR,LH412,LH,0,0,DLH412,DLH

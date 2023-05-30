@@ -1,0 +1,6 @@
+continent,airline_icao,count
+africa,AFR,8
+asia,AFL,4
+atlantic,AFR,1
+europe,UAE,42
+unknown,UAL,65
