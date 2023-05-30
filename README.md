@@ -27,7 +27,7 @@ The pipeline is run periodically (we can specify the time period in seconds, min
 1. Clone this repository:
 
    ```shell
-   git clone https://github.com/ElhNour/flight-radar-kata.git
+   git clone git@github.com:ElhNour/flight-radar-24-kata.git
    ```
 
 2. Install the required dependencies.
